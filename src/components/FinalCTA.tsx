@@ -34,7 +34,11 @@ export function FinalCTA() {
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#DCEEE8]/20 rounded-full blur-3xl translate-y-1/3 -translate-x-1/3"></div>
 
           <div className="relative z-10 max-w-3xl mx-auto">
-            <h4 className="font-bold text-[14px] uppercase tracking-widest text-[#DCEEE8] mb-6">Ensemble</h4>
+            <h4 className="font-bold text-[18px] md:text-[24px] tracking-[0.2em] mb-6">
+              <span className="text-[#0055A4]">ENS</span>
+              <span className="text-white">EM</span>
+              <span className="text-[#EF4135]">BLE</span>
+            </h4>
             <h2 className="font-extrabold text-[40px] md:text-[56px] text-white mb-8 leading-tight tracking-tight">
               Changeons la suite de son histoire
             </h2>
@@ -51,7 +55,7 @@ export function FinalCTA() {
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto bg-[#1E9E63] text-white py-4 px-8 rounded-[14px] font-bold text-[16px] hover:bg-[#157F4D] transition-colors shadow-sm text-center"
                 >
-                  Je fais le premier pas
+                  Je fais un don
                 </a>
                 <button 
                   onClick={() => setIsShareOpen(!isShareOpen)}

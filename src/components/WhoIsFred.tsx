@@ -14,8 +14,8 @@ export function WhoIsFred() {
             transition={{ duration: 0.8 }}
             className="order-2 md:order-1"
           >
-            <h4 className="font-bold text-[14px] uppercase tracking-widest text-[#00796B] mb-6">Son Histoire</h4>
-            <h2 className="font-extrabold text-[40px] md:text-[48px] text-[#161616] mb-8 leading-tight">
+            <h4 className="font-bold text-[14px] uppercase tracking-widest text-[#00796B] mb-6">SON HISTOIRE</h4>
+            <h2 className="font-extrabold text-[32px] md:text-[40px] text-[#161616] mb-8 leading-tight">
               Qui est Fred ?
             </h2>
             <div className="space-y-6 text-[16px] md:text-[18px] text-[#4D4D4D] font-medium leading-relaxed">

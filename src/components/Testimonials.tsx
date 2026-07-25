@@ -30,7 +30,7 @@ export function Testimonials() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h4 className="font-bold text-[14px] uppercase tracking-widest text-[#00796B] mb-6">Témoignages</h4>
+          <h4 className="font-bold text-[14px] uppercase tracking-widest text-[#00796B] mb-6">TÉMOIGNAGES</h4>
           <h2 className="font-extrabold text-[40px] md:text-[48px] text-[#161616] mb-6">
             Le quartier se mobilise
           </h2>

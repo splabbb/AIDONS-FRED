@@ -70,7 +70,7 @@ export function Hero() {
                     rel="noopener noreferrer"
                     className="flex justify-center items-center bg-[#00796B] text-white py-4 px-6 rounded-[14px] font-bold text-[16px] hover:bg-[#00695C] transition-colors text-center"
                   >
-                    Je fais le premier pas
+                    Je fais un don
                   </a>
                   <button 
                     onClick={() => setIsShareOpen(!isShareOpen)}
@@ -156,7 +156,7 @@ export function Hero() {
             />
             <div className="relative z-10 h-full min-h-[400px] lg:min-h-[600px] bg-[#FBF7F4] rounded-[24px] overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.06)] border border-[#E6E2DE]">
               <img 
-                src="/F7.png" 
+                src="/F12.png" 
                 alt="Portrait de Fred"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

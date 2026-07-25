@@ -19,11 +19,11 @@ export function Impact() {
           transition={{ duration: 0.8 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <h4 className="font-bold text-[14px] uppercase tracking-widest text-[#00796B] mb-6">Impact</h4>
+          <h4 className="font-bold text-[14px] uppercase tracking-widest text-[#00796B] mb-6">IMPACT</h4>
           <h2 className="font-extrabold text-[40px] md:text-[48px] text-[#161616] mb-6 leading-tight">
             Votre soutien change concrètement les choses
           </h2>
-          <p className="text-[16px] md:text-[18px] text-[#4D4D4D] font-medium leading-relaxed">
+          <p className="text-[16px] md:text-[18px] text-[#4D4D4D] font-medium leading-relaxed mb-8">
             Chaque don, quelle que soit sa taille, répond directement à la question : "Quelle différence fait mon aide aujourd'hui ?"
           </p>
         </motion.div>

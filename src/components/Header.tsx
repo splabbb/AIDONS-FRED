@@ -13,9 +13,9 @@ export function Header() {
         </span>
       </div>
       <nav className="hidden md:flex gap-8 text-[15px] font-bold text-[#4D4D4D]">
-        <a href="#histoire" className="hover:text-[#00796B] transition-colors">Son Histoire</a>
-        <a href="#impact" className="hover:text-[#00796B] transition-colors">Impact</a>
-        <a href="#temoignages" className="hover:text-[#00796B] transition-colors">Témoignages</a>
+        <a href="#histoire" className="hover:text-[#00796B] transition-colors">SON HISTOIRE</a>
+        <a href="#impact" className="hover:text-[#00796B] transition-colors">IMPACT</a>
+        <a href="#temoignages" className="hover:text-[#00796B] transition-colors">TÉMOIGNAGES</a>
       </nav>
       <a 
         href="https://www.leetchi.com/fr/c/urgent-aidez-fred-a-remplacer-son-velo-vole-et-a-surmonter-ses-difficultes-6874108?u=aaa031c0-7fa3-4271-94cf-019f7e8e74e7&utm_source=copylink&utm_medium=social_sharing"
@@ -23,7 +23,7 @@ export function Header() {
         rel="noopener noreferrer"
         className="bg-[#00796B] text-white px-6 py-2.5 rounded-[14px] text-[15px] font-bold hover:bg-[#00695C] shadow-sm transition-all"
       >
-        Je fais le premier pas
+        Je fais un don
       </a>
     </header>
   );

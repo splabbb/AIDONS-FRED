@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 
 export function WhoIsFred() {
   return (
-    <section id="histoire" className="py-20 md:py-32 bg-[#F2F1DF]">
+    <section id="histoire" className="pt-0 pb-20 md:pt-0 md:pb-32 bg-[#F2F1DF]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
         
         <div className="grid md:grid-cols-2 gap-16 items-center bg-[#FFFFFF] border border-[#E6E2DE] rounded-[24px] p-8 md:p-12 shadow-[0_6px_24px_rgba(0,0,0,0.06)] max-w-5xl mx-auto">

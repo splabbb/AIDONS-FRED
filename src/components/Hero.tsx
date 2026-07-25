@@ -22,7 +22,7 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden min-h-[80vh] hero-section bg-[#fcfcfd]">
       <MondrianBackground />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pt-16 pb-20 md:pt-24 md:pb-28">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pt-16 pb-0 md:pt-24 md:pb-0">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* Text Content */}
@@ -149,11 +149,6 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:col-span-5 order-1 lg:order-2 h-full relative"
           >
-            <img
-              src="/Gemini_Generated_Image_51e08d51e08d51e0.png"
-              alt=""
-              className="absolute -top-24 -left-96 w-[130%] max-w-none h-auto z-0 pointer-events-none object-contain opacity-[0.70]"
-            />
             <div className="relative z-10 h-full min-h-[400px] lg:min-h-[600px] bg-[#FBF7F4] rounded-[24px] overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.06)] border border-[#E6E2DE]">
               <img 
                 src="/F12.png" 
@@ -162,7 +157,17 @@ export function Hero() {
               />
             </div>
           </motion.div>
+        </div>
 
+        <div className="flex justify-center w-full">
+          <motion.img
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            src="/Gemini_Generated_Image_51e08d51e08d51e0.png"
+            alt=""
+            className="w-full max-w-2xl h-auto object-contain opacity-80"
+          />
         </div>
       </div>
     </section>

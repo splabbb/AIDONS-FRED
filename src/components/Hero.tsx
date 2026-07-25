@@ -30,14 +30,14 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="lg:col-span-7 order-2 lg:order-1"
+            className="lg:col-span-7 order-2 lg:order-1 relative z-10"
           >
             <h1 className="text-[56px] md:text-[64px] lg:text-[72px] font-extrabold leading-[1.05] tracking-tight text-[#161616] mb-8">
-              Redonnons à Fred <br className="hidden md:block"/><span className="text-[#00796B]">sa liberté</span>
+              Redonnons à Fred <br className="hidden md:block"/><span className="text-[#DA291C] font-['Space_Grotesk'] font-bold inline-block -rotate-3">sa liberté</span>
             </h1>
             
-            <p className="text-[16px] md:text-[18px] text-[#4D4D4D] leading-relaxed max-w-2xl mb-12 font-medium">
-              Privé du vélo électrique dont il dépendait chaque jour, Fred a perdu une part essentielle de sa mobilité. Ensemble, aidons-le à retrouver son autonomie.
+            <p className="text-[16px] md:text-[18px] text-[#4D4D4D] leading-relaxed max-w-2xl mb-12 font-bold">
+              Privé du vélo électrique dont il dépendait chaque jour, Fred a perdu une part essentielle de sa mobilité. <br /><br /> Ensemble, aidons-le à retrouver son autonomie.
             </p>
 
             <div className="bg-[#FFFFFF] p-8 md:p-10 rounded-[24px] text-[#161616] shadow-[0_6px_24px_rgba(0,0,0,0.06)] border border-[#E6E2DE] flex flex-col gap-8 max-w-xl">
@@ -147,11 +147,16 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="lg:col-span-5 order-1 lg:order-2 h-full"
+            className="lg:col-span-5 order-1 lg:order-2 h-full relative"
           >
-            <div className="h-full min-h-[400px] lg:min-h-[600px] bg-[#FBF7F4] rounded-[24px] relative overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.06)] border border-[#E6E2DE]">
+            <img
+              src="/Gemini_Generated_Image_51e08d51e08d51e0.png"
+              alt=""
+              className="absolute -top-24 -left-96 w-[130%] max-w-none h-auto z-0 pointer-events-none object-contain opacity-[0.70]"
+            />
+            <div className="relative z-10 h-full min-h-[400px] lg:min-h-[600px] bg-[#FBF7F4] rounded-[24px] overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.06)] border border-[#E6E2DE]">
               <img 
-                src="/F3.png" 
+                src="/F7.png" 
                 alt="Portrait de Fred"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

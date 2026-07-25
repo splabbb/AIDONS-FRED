@@ -25,7 +25,9 @@ export function Footer() {
   return (
     <>
       <footer className="px-6 md:px-10 py-12 bg-[#0F0909] flex flex-col md:flex-row justify-between items-center gap-4 text-[13px] text-[#F7F3F0] font-medium tracking-wide z-10 relative">
-        <div className="opacity-80">Conçu par Nicolas &amp; Romain</div>
+        <div className="opacity-80">
+          <img src="/F6.png" alt="Conçu par Nicolas & Romain" className="h-32 w-auto object-contain" />
+        </div>
         <div className="flex gap-6 opacity-80">
           <button 
             onClick={() => setActiveModal('confidentialite')} 

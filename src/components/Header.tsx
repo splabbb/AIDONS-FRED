@@ -4,15 +4,15 @@ export function Header() {
   return (
     <header className="sticky top-0 flex justify-between items-center px-6 md:px-10 py-4 border-b border-[#E6E2DE] bg-[#FBF7F4]/90 backdrop-blur-md shadow-sm z-50">
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 bg-[#00796B] rounded-[14px] flex items-center justify-center shadow-sm">
-          <div className="w-3.5 h-3.5 bg-white rounded-sm"></div>
+        <div className="w-10 h-10 flex items-center justify-center">
+          <img src="/wsd.png" alt="Logo" className="w-full h-full object-contain" />
         </div>
         <span className="font-extrabold tracking-tight text-lg leading-tight text-[#161616]">
-          UN ÉLAN<br />
-          pour Fred
+          SOLIDARITÉ <br />
+          POUR FRED
         </span>
       </div>
-      <nav className="hidden md:flex gap-8 text-[15px] font-medium text-[#4D4D4D]">
+      <nav className="hidden md:flex gap-8 text-[15px] font-bold text-[#4D4D4D]">
         <a href="#histoire" className="hover:text-[#00796B] transition-colors">Son Histoire</a>
         <a href="#impact" className="hover:text-[#00796B] transition-colors">Impact</a>
         <a href="#temoignages" className="hover:text-[#00796B] transition-colors">Témoignages</a>

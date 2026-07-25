@@ -48,6 +48,11 @@ export function Impact() {
                 <p className="text-[#4D4D4D] text-[15px] font-medium leading-relaxed">
                   {impact.description}
                 </p>
+                {impact.title === 'Soutien' && (
+                  <div className="mt-2 rounded-[12px] overflow-hidden border border-[#E6E2DE] shadow-sm">
+                    <img src="/F10.png" alt="Soutien" className="w-full h-auto object-cover" />
+                  </div>
+                )}
               </motion.div>
             );
           })}

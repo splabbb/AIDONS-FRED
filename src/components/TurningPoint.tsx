@@ -103,8 +103,8 @@ export function TurningPoint() {
                 </div>
               </div>
 
-              <div className="flex justify-center w-full pt-2">
-                <div className="w-[240px] md:w-[280px] aspect-video rounded-[12px] overflow-hidden shadow-sm border border-[#E6E2DE]">
+              <div className="flex justify-center md:justify-end w-full pt-2">
+                <div className="w-full md:w-[calc(50%-12px)] aspect-video rounded-[12px] overflow-hidden shadow-sm border border-[#E6E2DE]">
                   <iframe 
                     width="100%" 
                     height="100%" 

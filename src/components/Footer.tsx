@@ -33,7 +33,7 @@ export function Footer() {
             onClick={() => setActiveModal('confidentialite')} 
             className="hover:text-white transition-colors"
           >
-            Confidentialité
+            Confidentialité 🙏
           </button>
           <button 
             onClick={() => setActiveModal('conditions')} 
